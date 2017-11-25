@@ -56,4 +56,4 @@ module.exports.types = types.map(t => t.replace(/-([a-z])/gmi, (_, n) => n.toUpp
 const tmerge = types.map(t => [module.exports.types[i++], t])
 tmerge.forEach(t => module.exports[t[0]] = require('zeronet-fallaby/lib/types/' + t[1]))
 tmerge.forEach(t => module.exports[t[0]].reverse = require('zeronet-fallaby/lib/reverse/' + t[1])) */
-module.exports.contentJson = require('zeronet-fallaby/lib/types/content-json.js') // pkg fix
+module.exports.contentJson = require('./types/content-json.js') // pkg fix
