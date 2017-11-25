@@ -33,7 +33,11 @@
     "clone": "^2.1.1"
   },
   "directories": {
-    "lib": "lib"
+    "test": "test",
+    "src": "src",
+    "lib": "src"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "aegir": "^12.2.0"
+  }
 }
