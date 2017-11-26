@@ -13,7 +13,7 @@
     "release-minor": "aegir release --type minor",
     "release-major": "aegir release --type major",
     "coverage": "aegir coverage",
-    "coverage-publish": "aegir-coverage publish"
+    "coverage-publish": "aegir coverage -u"
   },
   "keywords": [
     "zeronet",
@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/ZeroNetJS/zeronet-js#readme",
   "dependencies": {
-    "clone": "^2.1.1"
+    "clone": "~2.1.1"
   },
   "directories": {
     "test": "test",
