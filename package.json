@@ -23,12 +23,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ZeroNetJS/zeronet-js.git"
+    "url": "git+https://github.com/ZeroNetJS/zeronet-fallaby.git"
   },
   "bugs": {
-    "url": "https://github.com/ZeroNetJS/zeronet-js/issues"
+    "url": "https://github.com/ZeroNetJS/zeronet-fallaby/issues"
   },
-  "homepage": "https://github.com/ZeroNetJS/zeronet-js#readme",
+  "homepage": "https://github.com/ZeroNetJS/zeronet-fallaby#readme",
   "dependencies": {
     "clone": "~2.1.1"
   },
