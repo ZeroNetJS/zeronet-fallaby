@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/ZeroNetJS/zeronet-fallaby#readme",
   "dependencies": {
-    "clone": "~2.1.1"
+    "clone": "^2.1.1"
   },
   "directories": {
     "test": "test",
